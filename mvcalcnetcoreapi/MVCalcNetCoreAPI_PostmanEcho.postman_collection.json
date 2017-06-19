@@ -1,0 +1,767 @@
+{
+	"variables": [],
+	"info": {
+		"name": "MVCalcNetCoreAPI_PostmanEcho",
+		"_postman_id": "37d77c43-08c5-6653-dee4-04aecfbc74af",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:65045/log/12",
+			"request": {
+				"url": "http://localhost:65045/log/12",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/list",
+			"request": {
+				"url": "http://localhost:65045/list",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/divide/5/6,5",
+			"request": {
+				"url": "http://localhost:65045/divide/5/6,5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/multiply/5/6,5",
+			"request": {
+				"url": "http://localhost:65045/multiply/5/6,5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/multiply/5/6.5",
+			"request": {
+				"url": "http://localhost:65045/multiply/5/6.5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/multiply/5/6",
+			"request": {
+				"url": "http://localhost:65045/multiply/5/6",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/log/a",
+			"request": {
+				"url": "http://localhost:65045/log/a",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/log5",
+			"request": {
+				"url": "http://localhost:65045/log5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/del/13",
+			"request": {
+				"url": "http://localhost:65045/del/13",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/del/15",
+			"request": {
+				"url": "http://localhost:65045/del/15",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/del/5",
+			"request": {
+				"url": "http://localhost:65045/del/5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/del",
+			"request": {
+				"url": "http://localhost:65045/del",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/log/15",
+			"request": {
+				"url": "http://localhost:65045/log/15",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/log/1",
+			"request": {
+				"url": "http://localhost:65045/log/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/log",
+			"request": {
+				"url": "http://localhost:65045/log",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/power/5/",
+			"request": {
+				"url": "http://localhost:65045/power/5/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/power/5/5.5",
+			"request": {
+				"url": "http://localhost:65045/power/5/5.5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:65045/power/5/5",
+			"request": {
+				"url": "http://localhost:65045/power/5/5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "op1",
+							"value": "++",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op",
+							"value": "&",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "op2",
+							"value": "4",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

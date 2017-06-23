@@ -1,0 +1,165 @@
+{
+	"variables": [],
+	"info": {
+		"name": "MVCalcNetCoreAPI_PostmanEcho2",
+		"_postman_id": "c8f511ca-c17d-e318-f213-aed0b7df65fc",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:55172/0",
+			"request": {
+				"url": "http://localhost:55172/0",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/6",
+			"request": {
+				"url": "http://localhost:55172/6",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/6",
+			"request": {
+				"url": "http://localhost:55172/6",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/get/0",
+			"request": {
+				"url": "http://localhost:55172/get/0",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/get/6",
+			"request": {
+				"url": "http://localhost:55172/get/6",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/list",
+			"request": {
+				"url": "http://localhost:55172/list",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/power/1e309/2",
+			"request": {
+				"url": "http://localhost:55172/power/1e309/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/power/-5/0,5",
+			"request": {
+				"url": "http://localhost:55172/power/-5/0,5",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/power/a/20",
+			"request": {
+				"url": "http://localhost:55172/power/a/20",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/power/10/20",
+			"request": {
+				"url": "http://localhost:55172/power/10/20",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/divide/10/20",
+			"request": {
+				"url": "http://localhost:55172/divide/10/20",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/multiply/10/20",
+			"request": {
+				"url": "http://localhost:55172/multiply/10/20",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/subtract/10/20",
+			"request": {
+				"url": "http://localhost:55172/subtract/10/20",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/sum/10/20",
+			"request": {
+				"url": "http://localhost:55172/sum/10/20",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

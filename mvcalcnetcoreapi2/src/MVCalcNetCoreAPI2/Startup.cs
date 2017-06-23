@@ -20,18 +20,15 @@ namespace MVCalcNetCoreAPI2
         {
             services.AddMvcCore();
             //регистрируем класс для работы с БД для последующих DI
-            services.AddScoped<ILogDbAccess, SqlDbService>();
+            services.AddSingleton<ILogDbAccess, SqlDbService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddConsole();
+            loggerFactory.AddConsole()
+                .AddDebug();
 
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
             app.UseMvc();
         }
     }

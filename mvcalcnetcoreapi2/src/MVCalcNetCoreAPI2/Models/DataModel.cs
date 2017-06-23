@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Logging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,12 +11,7 @@ namespace MVCalcNetCoreAPI2.Models
     ///</summary> 
     public class DataModel
     {
-        public string Result { get; set; }
-        public bool IsResultOk { get; set; }
+        public double Result { get; set; }
 
-        public override string ToString()
-        {
-            return $"Result:{Result}, IsResultOk:{IsResultOk}";
-        }
     }
 }

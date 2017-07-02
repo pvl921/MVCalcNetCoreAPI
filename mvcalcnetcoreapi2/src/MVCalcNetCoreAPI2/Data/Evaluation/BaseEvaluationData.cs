@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -20,9 +21,9 @@ namespace MVCalcNetCoreAPI2.Data.Evaluation
 
             if (String.IsNullOrWhiteSpace(Op2))
                 throw new ArgumentNullException(nameof(Op2));
-
-            Operand1 = Double.Parse(Op1);
-            Operand2 = Double.Parse(Op2);
+           
+            Operand1 = double.Parse(Op1);
+            Operand2 = double.Parse(Op2);
         }
     }
 }

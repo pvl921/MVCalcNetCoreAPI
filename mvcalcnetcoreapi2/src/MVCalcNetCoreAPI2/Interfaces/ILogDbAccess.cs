@@ -12,6 +12,7 @@ namespace MVCalcNetCoreAPI2.Interfaces
     public interface ILogDbAccess
     {
         int Add(DataModel model, string op1, string op, string op2);
+        int Add(string message);
         int Delete(int id);
         List<LogModel> List();
         LogModel Get(int id);

@@ -1,162 +1,417 @@
 {
 	"variables": [],
 	"info": {
-		"name": "MVCalcNetCoreAPI_PostmanEcho2",
-		"_postman_id": "c8f511ca-c17d-e318-f213-aed0b7df65fc",
+		"name": "MVCalcNetCoreAPI_PostmanEcho3",
+		"_postman_id": "2193137d-4d67-f2ae-403d-c6829434a376",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:55172/0",
+			"name": "http://localhost:55172/log/1",
 			"request": {
-				"url": "http://localhost:55172/0",
+				"url": {
+					"raw": "http://localhost:55172/log/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"log",
+						"1"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0,5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/log/1",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/log/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"log",
+						"1"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
 				"method": "DELETE",
-				"header": [],
-				"body": {},
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0,5\"}"
+				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:55172/6",
+			"name": "http://localhost:55172/log",
 			"request": {
-				"url": "http://localhost:55172/6",
-				"method": "DELETE",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "http://localhost:55172/6",
-			"request": {
-				"url": "http://localhost:55172/6",
-				"method": "DELETE",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "http://localhost:55172/get/0",
-			"request": {
-				"url": "http://localhost:55172/get/0",
+				"url": {
+					"raw": "http://localhost:55172/log",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"log"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
 				"method": "GET",
-				"header": [],
-				"body": {},
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0,5\"}"
+				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:55172/get/6",
+			"name": "http://localhost:55172/evaluation/power",
 			"request": {
-				"url": "http://localhost:55172/get/6",
-				"method": "GET",
-				"header": [],
-				"body": {},
+				"url": {
+					"raw": "http://localhost:55172/evaluation/power",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"power"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0,5\"}"
+				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:55172/list",
+			"name": "http://localhost:55172/evaluation/power",
 			"request": {
-				"url": "http://localhost:55172/list",
-				"method": "GET",
-				"header": [],
-				"body": {},
+				"url": {
+					"raw": "http://localhost:55172/evaluation/power",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"power"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0.5\"}"
+				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:55172/power/1e309/2",
+			"name": "http://localhost:55172/evaluation/power",
 			"request": {
-				"url": "http://localhost:55172/power/1e309/2",
-				"method": "GET",
-				"header": [],
-				"body": {},
+				"url": {
+					"raw": "http://localhost:55172/evaluation/power",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"power"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:55172/power/-5/0,5",
+			"name": "http://localhost:55172/evaluation/divide",
 			"request": {
-				"url": "http://localhost:55172/power/-5/0,5",
-				"method": "GET",
-				"header": [],
-				"body": {},
+				"url": {
+					"raw": "http://localhost:55172/evaluation/divide",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"divide"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:55172/power/a/20",
+			"name": "http://localhost:55172/evaluation/multiply",
 			"request": {
-				"url": "http://localhost:55172/power/a/20",
-				"method": "GET",
-				"header": [],
-				"body": {},
+				"url": {
+					"raw": "http://localhost:55172/evaluation/multiply",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"multiply"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:55172/power/10/20",
+			"name": "http://localhost:55172/evaluation/subtract",
 			"request": {
-				"url": "http://localhost:55172/power/10/20",
-				"method": "GET",
-				"header": [],
-				"body": {},
+				"url": {
+					"raw": "http://localhost:55172/evaluation/subtract",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"subtract"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
 				"description": ""
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:55172/divide/10/20",
+			"name": "http://localhost:55172/evaluation/sum",
 			"request": {
-				"url": "http://localhost:55172/divide/10/20",
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "http://localhost:55172/multiply/10/20",
-			"request": {
-				"url": "http://localhost:55172/multiply/10/20",
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "http://localhost:55172/subtract/10/20",
-			"request": {
-				"url": "http://localhost:55172/subtract/10/20",
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "http://localhost:55172/sum/10/20",
-			"request": {
-				"url": "http://localhost:55172/sum/10/20",
-				"method": "GET",
-				"header": [],
-				"body": {},
+				"url": {
+					"raw": "http://localhost:55172/evaluation/sum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"sum"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
 				"description": ""
 			},
 			"response": []

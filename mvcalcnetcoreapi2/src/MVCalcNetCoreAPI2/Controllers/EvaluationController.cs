@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
 using MVCalcNetCoreAPI2.Models;
-using MVCalcNetCoreAPI2.Services;
-using MVCalcNetCoreAPI2.Interfaces;
 using Microsoft.Extensions.Logging;
 using MVCalcNetCoreAPI2.Data.Evaluation;
 
@@ -15,16 +12,15 @@ namespace MVCalcNetCoreAPI2.Controllers
     [Route("[controller]")]
     public class EvaluationController : ControllerBase
     {
-        private readonly ILogDbAccess _logCtrl;
+        private readonly ILogger<EvaluationController> _logger;
 
-        public EvaluationController(ILogDbAccess logCtrl)
+        public EvaluationController(ILogger<EvaluationController> logger)
         {
-            _logCtrl = logCtrl ?? throw new ArgumentNullException(nameof(logCtrl));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         ///<summary>
-        ///Вычисляет результат математической операции. HTTP-запрос типа GET с параметром "/sum" , "/subtract", "/multiply", "/divide", "/power" и двумя операндами.
-        ///При отсутствии в запросе одного или двух операндов будет возвращена ошибка 404.
+        ///Операция арифметического деления двух операндов.
         ///</summary>
         [HttpPost("divide")]
         public IActionResult Divide([FromBody] DivideData data)
@@ -35,6 +31,81 @@ namespace MVCalcNetCoreAPI2.Controllers
             data.ValidateAndThrow();
 
             var result = data.Operand1 / data.Operand2;
+
+            _logger.LogInformation($"{data.Operand1} / {data.Operand2} = {result}");
+
+            return Ok(new DataModel() { Result = result });
+        }
+
+        ///<summary>
+        ///Операция арифметического сложения двух операндов.
+        ///</summary>
+        [HttpPost("sum")]
+        public IActionResult Sum([FromBody] GeneralEvaluationData data)
+        {
+            if (data == null)
+                throw new ArgumentNullException(nameof(data));
+
+            data.ValidateAndThrow();
+
+            var result = data.Operand1 + data.Operand2;
+
+            _logger.LogInformation($"{data.Operand1} + {data.Operand2} = {result}");
+
+            return Ok(new DataModel() { Result = result });
+        }
+
+
+        ///<summary>
+        ///Операция арифметического вычитания двух операндов.
+        ///</summary>
+        [HttpPost("subtract")]
+        public IActionResult Subtract([FromBody] GeneralEvaluationData data)
+        {
+            if (data == null)
+                throw new ArgumentNullException(nameof(data));
+
+            data.ValidateAndThrow();
+
+            var result = data.Operand1 - data.Operand2;
+
+            _logger.LogInformation($"{data.Operand1} - {data.Operand2} = {result}");
+
+            return Ok(new DataModel() { Result = result });
+        }
+
+        ///<summary>
+        ///Операция арифметического умножения двух операндов.
+        ///</summary>
+        [HttpPost("multiply")]
+        public IActionResult Multiply([FromBody] GeneralEvaluationData data)
+        {
+            if (data == null)
+                throw new ArgumentNullException(nameof(data));
+
+            data.ValidateAndThrow();
+
+            var result = data.Operand1 * data.Operand2;
+
+            _logger.LogInformation($"{data.Operand1} * {data.Operand2} = {result}");
+
+            return Ok(new DataModel() { Result = result });
+        }
+
+        ///<summary>
+        ///Операция возведения в степень.
+        ///</summary>
+        [HttpPost("power")]
+        public IActionResult Power([FromBody] PowerData data)
+        {
+            if (data == null)
+                throw new ArgumentNullException(nameof(data));
+
+            data.ValidateAndThrow();
+
+            var result = Math.Pow(data.Operand1, data.Operand2);
+
+            _logger.LogInformation($"{data.Operand1} ^ {data.Operand2} = {result}");
 
             return Ok(new DataModel() { Result = result });
         }

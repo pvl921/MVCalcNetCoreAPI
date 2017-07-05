@@ -1,0 +1,420 @@
+{
+	"variables": [],
+	"info": {
+		"name": "MVCalcNetCoreAPI_PostmanEcho3",
+		"_postman_id": "2193137d-4d67-f2ae-403d-c6829434a376",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:55172/log/1",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/log/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"log",
+						"1"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0,5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/log/1",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/log/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"log",
+						"1"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0,5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/log",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/log",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"log"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0,5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/evaluation/power",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/evaluation/power",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"power"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0,5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/evaluation/power",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/evaluation/power",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"power"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"0.5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/evaluation/power",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/evaluation/power",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"power"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/evaluation/divide",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/evaluation/divide",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"divide"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/evaluation/multiply",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/evaluation/multiply",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"multiply"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/evaluation/subtract",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/evaluation/subtract",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"subtract"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55172/evaluation/sum",
+			"request": {
+				"url": {
+					"raw": "http://localhost:55172/evaluation/sum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55172",
+					"path": [
+						"evaluation",
+						"sum"
+					],
+					"query": [
+						{
+							"key": "op2",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{op1:\"-10\", op2:\"5\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
